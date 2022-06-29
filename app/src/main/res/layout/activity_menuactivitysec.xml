@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLinears"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ligi1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_menuact_number_one">
+
+    <ScrollView
+        android:id="@+id/scrolmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/LinearScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TxtMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:text="@string/app_name"
+                android:textColor="@color/version_number_5_black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/razdel1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="horizontal">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/cardrazdel1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    app:neumorph_shadowColorDark="@color/version_number_5_dark"
+                    app:neumorph_shadowColorLight="@color/version_number_5_light">
+
+                    <LinearLayout
+                        android:id="@+id/podrazdel1"
+                        android:layout_width="100dp"
+                        android:layout_height="271dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/CalculatorWin"
+                            android:textSize="25sp"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/socritie1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/buttonOpen1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/cardrazdel2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    app:neumorph_shadowColorDark="@color/version_number_5_dark"
+                    app:neumorph_shadowColorLight="@color/version_number_5_light">
+
+                    <LinearLayout
+                        android:id="@+id/podrazdel2"
+                        android:layout_width="174dp"
+                        android:layout_height="269dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/WrestlingWin"
+                            android:textSize="30sp"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/socritie2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/buttonOpen2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/razdel2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="horizontal">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/cardrazdel3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    app:neumorph_shadowColorDark="@color/version_number_5_dark"
+                    app:neumorph_shadowColorLight="@color/version_number_5_light">
+
+                    <LinearLayout
+                        android:id="@+id/podrazdel3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/BadmintonWin"
+                            android:textSize="30sp"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/socritie3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/buttonOpen3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/cardrazdel4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    app:neumorph_shadowColorDark="@color/version_number_5_dark"
+                    app:neumorph_shadowColorLight="@color/version_number_5_light">
+
+                    <LinearLayout
+                        android:id="@+id/podrazdel4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/VolleyballWin"
+                            android:textSize="30sp"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/socritie4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/buttonOpen4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/razdel3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="horizontal">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/cardrazdel5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    app:neumorph_shadowColorDark="@color/version_number_5_dark"
+                    app:neumorph_shadowColorLight="@color/version_number_5_light">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/Water_poloWin"
+                            android:textSize="30sp"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/socritie5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/buttonOpen5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/cardrazdel6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    app:neumorph_shadowColorDark="@color/version_number_5_dark"
+                    app:neumorph_shadowColorLight="@color/version_number_5_light">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/text6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/HandballWin"
+                            android:textSize="30sp"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/socritie6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/buttonOpen6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Open"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

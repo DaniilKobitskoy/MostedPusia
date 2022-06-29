@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Linears"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ligi"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_mainactivity_number_one">
+
+    <soup.neumorphism.NeumorphTextView
+        android:id="@+id/icon_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/version_number_5_back"
+        android:textSize="28sp"
+        app:neumorph_shadowColorDark="@color/version_number_5_dark"
+        app:neumorph_shadowColorLight="@color/version_number_5_light" />
+
+    <WebView
+        android:id="@+id/webview_noView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:visibility="gone" />
+</LinearLayout>

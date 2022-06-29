@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Linears"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/regbiman"
+    tools:context="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_listening_number_one">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/PlayerPadewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/version_number_5_white"
+            app:tabBackground="@drawable/tab_barchick_new_tb_bar_new_version_six"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp" />
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

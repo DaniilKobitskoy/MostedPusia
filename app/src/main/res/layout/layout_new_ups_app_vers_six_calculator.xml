@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AllViews"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ligi1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_calculator_number_one">
+
+    <soup.neumorphism.NeumorphTextView
+        android:id="@+id/TxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/winers"
+        android:textSize="18sp"
+        app:neumorph_shadowColorDark="@color/version_number_5_dark"
+        app:neumorph_shadowColorLight="@color/version_number_5_light" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_textVersion5"
+        android:textStyle="bold"
+        android:text="@string/moneyWin" />
+
+    <EditText
+        android:id="@+id/summView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_textVersion5"
+        android:textStyle="bold"
+        android:text="@string/koefWin" />
+
+    <EditText
+        android:id="@+id/koifWinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/winTXTsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black_textVersion5"
+        android:textStyle="bold"
+        android:text="@string/winpayWin" />
+
+    <Button
+        android:id="@+id/sumRezults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt_bg_new_bg_cnock_version_six"
+        android:text="@string/Winsum"
+        android:textAllCaps="false"
+        android:textColor="@color/version_number_5_black" />
+
+
+</LinearLayout>

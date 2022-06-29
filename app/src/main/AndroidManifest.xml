@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="apps.liga.bk.winline.fonbet.liga.stavok.ligastavok.olimp.bet">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconviews"
+        android:label="@string/app_name_version5"
+        android:roundIcon="@mipmap/iconviews"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Most"
+        android:name="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_parametrtrafics_number_one"
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        tools:targetApi="m">
+        <activity
+            android:name="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_calculator_number_one"
+            android:exported="false" />
+        <activity
+            android:name="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_listening_number_one"
+            android:exported="false" />
+        <activity
+            android:name="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_menuact_number_one"
+            android:exported="false" />
+        <activity
+            android:name="mostednext5.mostnext5.monext5.jefferronext5.decnext5.upnextversion5.senextversion5.spotnextversion5.uknextversion5.sdlbnextversion5.layout_activity_mainactivity_number_one"
+            android:configChanges="orientation|screenSize"
+            android:exported="true"
+            android:fitsSystemWindows="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

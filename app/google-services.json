@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "248079460072",
+    "firebase_url": "https://dbet5new-default-rtdb.firebaseio.com",
+    "project_id": "dbet5new",
+    "storage_bucket": "dbet5new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248079460072:android:cec51083ad64b4fc78cb5d",
+        "android_client_info": {
+          "package_name": "apps.winline.fonbet.fon.bet.fonbet.ru.sport.pinup.pin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248079460072-i2fuo1qel7effk3il25nlq1defsfi18h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apps.winline.fonbet.fon.bet.fonbet.ru.sport.pinup.pin",
+            "certificate_hash": "a1520cec6560a7307c49f48669c2d8d4f643b0dc"
+          }
+        },
+        {
+          "client_id": "248079460072-oq0n7h6338nogloht86tcne49iime56e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUCal9QLNdX9WmbqM8dxN7RacT8gSarvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248079460072-oq0n7h6338nogloht86tcne49iime56e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
